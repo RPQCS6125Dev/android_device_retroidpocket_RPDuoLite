@@ -8,6 +8,9 @@ DEVICE_PATH := device/retroidpocket/RPDuoLite
 # Include the common OEM chipset BoardConfig.
 include device/retroidpocket/qcs6125-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 360
+
 # DTBO
 TARGET_MERGE_DTBOS_WILDCARD := *ayn-odin2-thor*
 
